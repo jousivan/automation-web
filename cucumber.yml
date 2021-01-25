@@ -1,0 +1,11 @@
+---
+  default: -p dev -p chrome -p html  
+  dev: ENV_TYPE=dev
+  
+  bdd: --format pretty
+  progress: --format progress
+  html: --format html --out=log/report.html
+  json: --format json --out=log/report.json
+  
+  chrome: -p bdd BROWSER=chrome
+  firefox: -p bdd BROWSER=firefox
