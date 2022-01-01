@@ -1,5 +1,5 @@
 # Automação Web
-Teste Automação web
+Teste Automação web usando Ruby, BDD, HTTParty, entre outras tecnologias.
 
 # Tecnologias utilizadas
 * Ruby: Linguagem de programação utilizada no projeto
